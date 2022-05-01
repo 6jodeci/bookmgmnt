@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	dsn = "root:769321djR@tcp(127.0.0.1:3306)/bookmgmnt?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn = "root:769321djR/@tcp(127.0.0.1:3306)/bookmgmnt?charset=utf8mb4&parseTime=True&loc=Local"
 	db  *gorm.DB
 )
 
